@@ -1,0 +1,111 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: var(--first-color);
+}
+
+.pc-header{
+    height: 15vh;
+    width: 100%;
+    
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links {
+    flex-direction: row;
+    display: flex;
+    text-align: left;
+}
+
+.pc-header .links a {
+text-align: right;
+}
+
+.navigace{
+    background-color: var(--first-color);
+}
+
+.logo {
+    margin: 0 0 0 25px;
+}
+
+.logo, .links {
+    padding: 40px 0 25px 0;
+}
+
+.navigace, .links a{
+    color: var(--second-color);
+    padding: 0 15px;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}
+
+#last-link{
+    padding: 0 25px 0 15px;
+}
+
+.home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 100px 150px ;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+}
+
+section .about{
+    margin: 0 240px 0 20px ;
+}
+
+section .home img{
+    height: 150px;
+    width: auto;
+}
+
+.about{
+    margin: 0;
+    margin-bottom: 70px;
+    text-align: left;
+    z-index: 7;
+}
+
+.about p {
+    color: var(--second-color);
+    letter-spacing: 1.5px;
+    margin: 0%;
+    line-height: 30px;
+}
+
+section .obrazek img{
+ 
+    width: 350px;
+    height: auto;
+    padding: 0;
+    z-index: 6;
+}
+
+footer {
+    background-color: var(--fourth-color);
+    padding-top: 40px;
+    padding-bottom: 5px;
+    height: auto;
+}
+
+.kontakt p {
+    color: var(--second-color);
+    opacity: 30%;
+    text-align: center;
+}
